@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./index.css";
 
-export const ListCard = ({ item }) => {
+export const ListCard = ({ item, onClick }) => {
   const [checked, setChecked] = useState(false);
 
   return (
-    <div className="list-card-container">
+    <div className="list-card-container" onClick={() => onClick(item) }>
       <div className="checkbox">
         <input
           onChange={() => setChecked(!checked)}
@@ -19,7 +19,7 @@ export const ListCard = ({ item }) => {
         <span className="list-card-title ">{item?.name}</span>
         <span className="list-card-subtitle">{item?.quantity} unidade</span>
       </div>
-      <img src="/images/arrow.svg" alt="arrow-icon" className="arrow-icon" />
+      <img src="/images/arrow.svg" alt="arrow-icon " className="arrow-icon " />
     </div>
   );
 };

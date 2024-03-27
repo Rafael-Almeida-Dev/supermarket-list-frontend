@@ -10,6 +10,7 @@
   background-color: #f2f4ff;
   border-radius: 12px;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .checkbox {
   display: flex;
