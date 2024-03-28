@@ -10,7 +10,6 @@
   background-color: #f2f4ff;
   border-radius: 12px;
   margin-bottom: 24px;
-  cursor: pointer;
 }
 .checkbox {
   display: flex;
@@ -18,6 +17,7 @@
   height: 24px;
   position: relative;
   margin-right: 12px;
+  cursor: pointer;
 }
 .checkbox label {
   height: 24px;
@@ -57,7 +57,7 @@
 
 .list-card-text-container {
   display: flex;
-  width: 97%;
+  width: 90%;
   flex-direction: column;
 }
 
@@ -71,9 +71,17 @@
   font-size: 14px;
 }
 
+.arrow-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 10%;
+  cursor: pointer;
+}
+
 .arrow-icon {
   width: 6px;
   height: 12px;
   object-fit: contain;
-  cursor: pointer;
 }

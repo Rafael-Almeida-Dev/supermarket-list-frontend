@@ -12,6 +12,11 @@
   cursor: pointer;
   border: 1px solid #1e90ff;
 }
+@media screen and (max-width: 420px) {
+  .button-container{
+    max-width: 300px;
+  }  
+}
 
 .main {
   background-color: #1e90ff;
