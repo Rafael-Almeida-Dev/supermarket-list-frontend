@@ -35,7 +35,7 @@
   border-bottom: 2px solid #ffffff;
   border-top: none;
   border-right: none;
-  content: "";
+  content: '';
   height: 6px;
   width: 10px;
   opacity: 0;
@@ -45,13 +45,13 @@
   transform: rotate(-45deg);
 }
 
-.checkbox input[type="checkbox"] {
+.checkbox input[type='checkbox'] {
   visibility: hidden;
 }
-.checkbox input[type="checkbox"]:checked + label {
+.checkbox input[type='checkbox']:checked + label {
   background-color: #1e90ff;
 }
-.checkbox input[type="checkbox"]:checked + label::after {
+.checkbox input[type='checkbox']:checked + label::after {
   opacity: 1;
 }
 
