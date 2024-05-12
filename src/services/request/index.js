@@ -5,19 +5,19 @@ export const getList = async () => {
     const result = await api.get('/list-items')
     return result.data
   } catch (error) {
-    alert(' Error ao buscar dados da ApI')
+    alert('Error ao buscar dados da API')
     return { error }
   }
 }
 
-export const creatItem = async (item) => {
+export const createItem = async (item) => {
   try {
     const result = await api.post('/list-item', {
       ...item
     })
     return result.data
   } catch (error) {
-    alert(' Error ao salvar novo item')
+    alert('Error ao salvar novo item')
     return { error }
   }
 }
@@ -29,7 +29,7 @@ export const updateItem = async (id, item) => {
     })
     return result.data
   } catch (error) {
-    alert(' Error ao salvar novo item')
+    alert('Error ao salvar novo item')
     return { error }
   }
 }
@@ -39,7 +39,7 @@ export const deleteItem = async (id) => {
     const result = await api.delete(`/list-item/${id}`)
     return result.data
   } catch (error) {
-    alert(' Error ao deletar item')
+    alert('Error ao deletaritem')
     return { error }
   }
 }

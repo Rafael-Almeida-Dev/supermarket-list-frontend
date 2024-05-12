@@ -1,4 +1,3 @@
-
 import { ButtonContainer, ButtonIcon } from './style'
 
 export const Button = ({ children, onClick, variant, icon }) => {
