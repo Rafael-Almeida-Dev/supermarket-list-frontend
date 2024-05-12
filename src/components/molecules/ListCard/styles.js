@@ -21,6 +21,7 @@ export const CheckImage = styled.img`
   position: relative;
   margin-right: 12px;
   object-fit: contain;
+  cursor: pointer;
 `
 
 export const TextContainer = styled.div`
