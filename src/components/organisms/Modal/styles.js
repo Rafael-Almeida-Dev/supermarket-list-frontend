@@ -46,7 +46,7 @@ export const ModalCloseButton = styled.button`
   width: 24px;
   background-color: transparent;
   border: 0px;
-  background-image: url('../../../public/images/close.svg');
+  background-image: url(images/close.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
